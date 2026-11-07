@@ -13,7 +13,7 @@ Ao final deste módulo, os participantes devem ser capazes de:
 - Abra uma conversa nova para cada comparação (A1 e A2; B1 e B2).
 - Use apenas dados fictícios.
 
-## Cronograma sugerido (~20 min)
+## Cronograma sugerido (~22 min)
 
 Os tempos abaixo são uma sugestão; no roteiro original, só a Demonstração B tem duração definida.
 
@@ -21,7 +21,7 @@ Os tempos abaixo são uma sugestão; no roteiro original, só a Demonstração B
 |---|---|
 | Abertura e objetivos | 3 min |
 | Demonstração A (seção 2) | ~8 min |
-| Demonstração B (seção 2) | ~3 min |
+| Demonstração B (seção 2) | ~5 min |
 | Síntese (seção 3) | 3 min |
 | Fechamento (seção 4) | 3 min |
 
@@ -145,7 +145,7 @@ ambíguos, acrescente a coluna "revisão humana necessária" = SIM.
 
 O comentário 5 é propositalmente ambíguo: "confirmar" aponta para AGENDAMENTO e "esperei" para TEMPO_DE_ESPERA. Ele serve para discutir o que fazer quando as definições não decidem o caso.
 
-### Demonstração B — CoT aplicado como justificativa auditável (aprox. 3 minutos)
+### Demonstração B — CoT aplicado como justificativa auditável (aprox. 5 minutos)
 
 **Cenário fictício:** o ambulatório precisa selecionar uma iniciativa para um projeto-piloto. Não há dados suficientes para estimar retorno financeiro com segurança.
 
@@ -212,5 +212,3 @@ Formato: tabela comparativa + até 120 palavras de conclusão.
 > Uma boa técnica organiza a instrução; a verificação dos resultados continua sendo responsabilidade de quem usa a IA.
 
 **Ponte para o módulo 3:** agora que vimos as técnicas, vamos organizar instruções com frameworks e aprender a melhorar um prompt com a própria IA. Próxima aula: [Módulo 3 — Frameworks e melhoria de prompts](03-frameworks-e-melhoria-de-prompts.md).
-
-

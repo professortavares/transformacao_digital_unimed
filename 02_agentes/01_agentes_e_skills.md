@@ -25,7 +25,6 @@ Os tempos são uma sugestão; o roteiro original não define duração por seç�
 | Demonstração 2: skill (seção 5) | ~8 min |
 | Fechamento (seção 6) | 2 min |
 
-
 ## 1. Ideia central
 
 **Pergunta provocadora:** “Se um prompt bem escrito resolve o problema, para que criar um agente? E quando uma skill faz diferença?”
@@ -42,7 +41,6 @@ Os tempos são uma sugestão; o roteiro original não define duração por seç�
 | **Ferramenta/ação** | O que ele consegue consultar ou executar fora do chat? | Consultar sistema autorizado ou iniciar fluxo; exige configuração, permissões e, em geral, Copilot Studio. |
 
 **Atenção:** skill não é sinônimo de ferramenta externa. No Agent Builder, uma skill pode ser um pacote com `SKILL.md`, referências e scripts. A disponibilidade de criação/adicionamento depende da licença e dos controles do ambiente. Tampouco toda instrução de agente é uma skill formal.
-
 
 ## 3. Caso único que conduz a aula
 
@@ -181,9 +179,10 @@ Receba os dados fictícios de janeiro a abril, calcule as mudanças,
 distinga fatos de hipóteses e gere uma nota executiva.
 ```
 
+Ao comparar a saída, confira se as variações de absenteísmo aparecem em pontos percentuais (p.p.), e não como variação relativa.
+
 ## 6. Fechamento (2 minutos)
 
 > Agente define como o assistente se comporta; skill define como um procedimento é executado. Nenhum dos dois substitui a validação pela equipe de gestão.
 
 **Antes de usar com dados reais:** validar o agente, a skill e as instruções com a área assistencial e os controles institucionais, e usar somente fontes autorizadas.
-

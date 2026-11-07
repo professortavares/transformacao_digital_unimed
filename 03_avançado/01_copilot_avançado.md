@@ -33,6 +33,8 @@ Discussão: o que a IA fez bem, o que exigiu revisão humana?
 
 > A diretoria de um centro de especialidades acompanha oito meses de indicadores de Cardiologia, Ortopedia e Endocrinologia. Existem preocupações com faltas, aumento do tempo médio de espera e glosas. O conselho administrativo solicitou uma apresentação curta, com fatos, riscos, perguntas que ainda precisam ser respondidas e um plano inicial de investigação. **Não foi fornecido orçamento nem evidência causal suficiente para recomendar investimentos específicos.**
 
+Este caso é independente do Ambulatório Santa Aurora (aula de LLM-as-a-Judge) e dos dados da aula de agentes.
+
 ### Arquivo de dados
 
 `indicadores_ambulatoriais_ficticios.xlsx`
@@ -56,8 +58,7 @@ A guia `Dicionario` explica os campos e as limitações. Para simplificar a ativ
 
 > O aumento das faltas **prova** que a instituição precisa contratar mais médicos?
 
-
-## 3. Laboratório A — Copilot + Excel
+## 3. Laboratório A — Copilot + Excel (25 min)
 
 ### Aprendizado-chave
 
@@ -99,7 +100,34 @@ Não use a média simples das taxas por especialidade como taxa total.
 Não atribua causalidade aos padrões encontrados.
 ```
 
-**Nota de facilitação:** se o Copilot criar os cálculos em abas novas ou em células diretamente, mostre o que mudou e confira uma fórmula. Se apenas responder no chat, peça para criar uma tabela no arquivo — quando o recurso de edição estiver disponível.
+**Nota de facilitação:** se o Copilot criar os cálculos em abas novas ou em células diretamente, mostre o que mudou e confira uma fórmula. Se ele apenas responder no chat e não puder editar o arquivo, cole a tabela-resumo em uma planilha nova e confira duas fórmulas manualmente.
+
+**Quadro de verificação para o instrutor** (use para conferir o trabalho do Copilot; não é necessário projetar):
+
+| Conferência | Valor esperado |
+|---|---|
+| Consultas agendadas no período | 6.650 |
+| Consultas realizadas no período | 5.649 |
+| Faltas no período | 1.001 |
+| Absenteísmo global | 15,05% |
+| Receita bruta no período | R$ 1.862.320 |
+| Glosas no período | R$ 67.795 |
+| Taxa global de glosas | 3,64% |
+| Absenteísmo: janeiro → agosto | 11,62% → 18,62% (+7,00 p.p.) |
+| Glosas: janeiro → agosto | 2,35% → 5,16% (+2,81 p.p.) |
+| Espera, janeiro → agosto: Cardiologia / Ortopedia / Endocrinologia | 18 → 32 / 15 → 27 / 13 → 22 dias |
+
+### Passo A2b — Tempo de espera por especialidade (5 min)
+
+```text
+Usando somente a tabela IndicadoresAmbulatoriais:
+1. Compare Espera_media_dias de janeiro e agosto de 2026 por especialidade.
+2. Se for preciso um valor único, explique a ponderação usada
+   (por exemplo, por consultas realizadas) e não use média simples.
+3. Não atribua causalidade à variação da espera.
+```
+
+**Pergunta ao grupo:** a espera aumentou em todas as especialidades? O que ainda precisaríamos saber para explicar essas diferenças?
 
 ### Passo A3 — Teste de pensamento crítico (5 min)
 
@@ -174,7 +202,7 @@ Não altere os dados nem acrescente conclusões sem evidências.
 
 **Pergunta à turma:** um texto bem redigido pode esconder um cálculo errado que veio do Excel? Como evitar que o erro seja propagado para o Word?
 
-**Ponto importante:** o arquivo Word é o **produto revisado** desta etapa. Salve-o para fazer a transição ao PowerPoint. Se a edição no Word não estiver disponível, utilize o modelo `modelo_contingencia_relatorio_executivo.docx`, desta pasta.
+**Ponto importante:** o arquivo Word é o **produto revisado** desta etapa. Salve-o para fazer a transição ao PowerPoint. O arquivo `modelo_contingencia_relatorio_executivo.docx` contém um relatório pronto: use-o como referência do instrutor para comparar com o texto dos alunos. Se a edição no Word não estiver disponível, mostre-o como contingência somente depois que os alunos tentarem.
 
 ---
 
@@ -227,4 +255,3 @@ onde permitido, aplique-as mantendo a apresentação em 5 slides.
 ```
 
 **Perguntas à turma:** o que foi perdido ao condensar duas páginas em cinco slides? O que ganhamos em clareza? Qual número merece uma checagem final antes da reunião?
-

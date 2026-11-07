@@ -34,7 +34,6 @@ Os tempos são uma sugestão; o roteiro original não define duração por seç�
 | **RTF, TAG, RISE etc.** | Como organizo a instrução? | Separar papel, tarefa, insumos e entrega |
 | **Metaprompting** | Como uso a IA para melhorar a instrução? | Pedir diagnóstico, reescrita e testes do prompt |
 
-
 ## 1. Os frameworks de prompts
 
 **Sugestão de condução:** não apresente os seis frameworks com o mesmo peso. Use o quadro de escolha rápida (item 1.7) para situar a turma e aprofunde dois: RTF, por ser o mais simples, e RISE, por unir dados, etapas e critérios de qualidade. Os demais servem como consulta.

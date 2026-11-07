@@ -29,14 +29,14 @@ Laboratórios com Microsoft 365 Copilot no Excel, no Word e no PowerPoint, em to
 
 - `01_copilot_avançado.md`: roteiro dos laboratórios, com passos e tempos sugeridos.
 - `indicadores_ambulatoriais_ficticios.xlsx`: planilha de dados fictícios usada no laboratório de Excel.
-- `modelo_contingencia_relatorio_executivo.docx`: modelo de relatório executivo usado no laboratório de Word.
+- `modelo_contingencia_relatorio_executivo.docx`: relatório executivo pronto, para referência do instrutor e contingência no laboratório de Word.
 
 ### `04_avaliação_llm/` — LLM-as-a-Judge com Copilot (Módulo 6)
 
 Oficina em que o Copilot avalia respostas fictícias de IA com uma rubrica, e os alunos comparam essa avaliação com a de pessoas.
 
 - `01_llm_as_a_judge_copilot.md`: roteiro da oficina, com cronograma sugerido de 50 min.
-- `materiais/`: caso com as respostas A, B e C, prompts para o juiz (absoluto e comparativo), ficha de avaliação humana e gabarito do professor.
+- `materiais/`: caso com as respostas A, B e C, prompts para o juiz (absoluto e comparativo) e ficha de avaliação humana.
 
 ## Uso em sala
 

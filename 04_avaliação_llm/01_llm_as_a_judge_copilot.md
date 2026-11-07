@@ -1,6 +1,5 @@
 # Módulo 6 — LLM-as-a-Judge: como avaliar respostas de IA usando o Microsoft Copilot
 
-
 ## 1. Ideia central
 
 Até aqui, os participantes usaram a IA para **produzir** respostas, relatórios, análises e apresentações. Agora a pergunta muda:
@@ -9,7 +8,7 @@ Até aqui, os participantes usaram a IA para **produzir** respostas, relatórios
 
 **LLM-as-a-Judge** é uma técnica de avaliação em que um modelo de linguagem recebe uma resposta candidata, critérios de qualidade e, quando possível, uma fonte de referência, para **atribuir notas, apontar problemas ou comparar alternativas**. O julgamento é um *sinal de qualidade*, não uma certificação de verdade.
 
-Nesta oficina, o Copilot funcionará como um **avaliador assistido por rubrica**, recebendo respostas fictícias de um suposto assistente de gestão ambulatorial. Os alunos compararão a avaliação automática com a avaliação feita por pessoas.
+Nesta oficina, o Copilot funcionará como um **avaliador assistido por rubrica**, recebendo respostas fictícias de um suposto assistente de gestão ambulatorial. Os alunos compararão a avaliação automática com a avaliação feita por pessoas. O caso desta oficina é independente do caso de Copilot (Centro de Especialidades Horizonte) e dos dados da aula de agentes.
 
 ### Mensagem a enfatizar
 
@@ -41,7 +40,7 @@ Ao final, o participante deverá conseguir:
 ## Preparação
 
 - Acesso ao **Microsoft 365 Copilot Chat**, com uma conversa nova para cada avaliação.
-- Arquivos da pasta `materiais/`: o caso com as Respostas A, B e C, os dois prompts de juiz e a ficha de avaliação humana. O gabarito do professor fica fora das mãos dos alunos até o fim.
+- Arquivos da pasta `materiais/`: o caso com as Respostas A, B e C, os dois prompts de juiz e a ficha de avaliação humana.
 - A ficha de avaliação humana precisa estar pronta, porque o objetivo 6 compara a avaliação automática com a de pessoas.
 
 ## Cronograma sugerido (50 min)
@@ -54,7 +53,6 @@ Ao final, o participante deverá conseguir:
 | 4. Demonstração no Copilot | 12 min |
 | 5. A armadilha: vieses do juiz | 10 min |
 | 6. Validação humana | 8 min |
-
 
 ---
 
@@ -118,6 +116,8 @@ Para evitar avaliações vagas como “ficou bom?”, use critérios explícitos
 - **4 — Bom:** atende com pequenas limitações.
 - **5 — Excelente:** atende completamente, com evidências verificáveis.
 
+Esta oficina usa escala de 1 a 5, diferente da escala de 0 a 2 das aulas 1 e 3, porque a rubrica tem cinco critérios ponderados e precisa de mais resolução.
+
 **Cálculo:** `nota_final_1_a_5 = Σ (nota_do_critério × peso_do_critério) / 100`.
 
 Exemplo ilustrativo: notas `5, 4, 4, 3, 4` produzem `4,20/5`. Os pesos são percentuais (35, 25, 15, 15, 10).
@@ -133,6 +133,8 @@ Exemplo ilustrativo: notas `5, 4, 4, 3, 4` produzem `4,20/5`. Os pesos são perc
 - sugerir exposição inadequada de dados pessoais ou sensíveis.
 
 O avaliador deve apontar **a frase que evidencia** a falha, não apenas declarar que “há risco”.
+
+**Antes de mostrar a avaliação do Copilot:** peça que cada grupo preencha a ficha de avaliação humana para as Respostas A e B, usando esta rubrica. Assim a comparação com a IA não é influenciada pela avaliação dela.
 
 ### Pergunta ao público
 

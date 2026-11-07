@@ -38,6 +38,8 @@ Considere um ambulatório fictício que enfrenta desafios operacionais e finance
 
 ### Prompt 1 — Solicitação genérica
 
+**Nota ao instrutor:** o Prompt 1 fala de hospital de propósito, por ser o pedido genérico. O Prompt 2 usa o ambulatório do cenário.
+
 Copie o texto abaixo na primeira conversa:
 
 ```text
