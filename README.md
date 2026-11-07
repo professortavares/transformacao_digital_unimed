@@ -23,6 +23,14 @@ Três módulos, na ordem:
 
 Ao alterar `SKILL.md` ou `referencias/criterios.md`, gere novamente o ZIP para que ele reflita a versão atual.
 
+### `03_avançado/` — Copilot na prática
+
+Laboratórios com Microsoft 365 Copilot no Excel, no Word e no PowerPoint, em torno de um caso fictício (Centro de Especialidades Horizonte): da análise dos dados até uma apresentação para o conselho.
+
+- `01_copilot_avançado.md`: roteiro dos laboratórios, com passos e tempos sugeridos.
+- `indicadores_ambulatoriais_ficticios.xlsx`: planilha de dados fictícios usada no laboratório de Excel.
+- `modelo_contingencia_relatorio_executivo.docx`: modelo de relatório executivo usado no laboratório de Word.
+
 ## Uso em sala
 
 - Os nomes de botões e menus das plataformas de IA podem mudar conforme a versão, o idioma e a licença. Valide a interface antes da aula.
