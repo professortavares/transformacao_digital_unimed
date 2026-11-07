@@ -1,10 +1,40 @@
 # Módulo 1 — A IA consegue realmente ajudar um gestor?
 
+## Objetivos de aprendizagem
+
+Ao final deste módulo, os participantes devem ser capazes de:
+
+1. Observar como o contexto e a definição do pedido mudam a qualidade da resposta da IA.
+2. Distinguir sugestão de recomendação validada.
+3. Reconhecer que a decisão continua sendo humana.
+
+## Preparação
+
+- Abra duas conversas novas e separadas na ferramenta de IA.
+- Use apenas dados fictícios.
+
+## Cronograma (~25 min)
+
+| Etapa | Tempo |
+|---|---|
+| Abertura e objetivos | 3 min |
+| Demonstração central (seção 1) | ~15 min |
+| Discussão guiada (seção 2) | 4 min |
+| Fechamento (seção 4) | 2 min |
+| Demonstração opcional (seção 1) | ~1 min, se houver tempo |
+
 ## 1. Demonstração central: um problema, dois prompts
 
 ### O cenário de trabalho
 
-Considere um hospital fictício que enfrenta desafios operacionais e financeiros. O objetivo da demonstração **não é solucionar o problema de gestão em 15 minutos**, e sim observar como a formulação da solicitação modifica a qualidade do apoio oferecido pela IA.
+Considere um ambulatório fictício que enfrenta desafios operacionais e financeiros. O objetivo da demonstração **não é solucionar o problema de gestão em 15 minutos**, e sim observar como a formulação da solicitação modifica a qualidade do apoio oferecido pela IA.
+
+### Passo a passo de condução
+
+1. Rode o Prompt 1 na primeira conversa e mostre a resposta à turma.
+2. Discuta os pontos a observar e a provocação abaixo.
+3. Abra a segunda conversa, rode o Prompt 2 e avalie a resposta com a tabela de critérios.
+4. Compare as duas respostas lado a lado e, se houver tempo, faça a demonstração opcional.
 
 ### Prompt 1 — Solicitação genérica
 
@@ -30,10 +60,10 @@ Como posso melhorar a gestão de um hospital?
 Na segunda conversa, copie o texto abaixo:
 
 ```text
-Atue como consultor de gestão hospitalar e ajude a estruturar
+Atue como consultor de gestão em saúde e ajude a estruturar
 uma análise inicial para uma reunião de diretoria.
 
-Contexto: um hospital fictício enfrenta aumento do tempo de
+Contexto: um ambulatório fictício enfrenta aumento do tempo de
 espera por consultas, absenteísmo de pacientes e restrições
 orçamentárias. Ainda não temos dados quantitativos suficientes
 para atribuir causas ou estimar o impacto das intervenções.
@@ -62,14 +92,16 @@ Formato: tabela executiva, seguida de um resumo de até
 
 **O que avaliar na resposta:**
 
-| Critério | Pergunta para observar o resultado |
-|---|---|
-| Aderência ao contexto | A resposta leva em conta espera, absenteísmo e orçamento? |
-| Utilidade gerencial | Apresenta opções comparáveis e informações acionáveis? |
-| Transparência | Separa fatos disponíveis, hipóteses e informações ausentes? |
-| Priorização responsável | Evita tratar opiniões ou suposições como evidências de impacto? |
-| Qualidade da apresentação | O formato ajuda alguém a discutir o tema em uma reunião? |
-| Segurança | Evita recomendações clínicas individualizadas e dados sensíveis? |
+| Critério | Pergunta para observar o resultado | Nota (0–2) |
+|---|---|---|
+| Aderência ao contexto | A resposta leva em conta espera, absenteísmo e orçamento? | |
+| Utilidade gerencial | Apresenta opções comparáveis e informações acionáveis? | |
+| Transparência | Separa fatos disponíveis, hipóteses e informações ausentes? | |
+| Priorização responsável | Evita tratar opiniões ou suposições como evidências de impacto? | |
+| Qualidade da apresentação | O formato ajuda alguém a discutir o tema em uma reunião? | |
+| Segurança | Evita recomendações clínicas individualizadas e dados sensíveis? | |
+
+Escala: 0 = não atende; 1 = atende parcialmente; 2 = atende bem. A mesma escala é usada no Metaprompt 3 do Módulo 3.
 
 **Atenção:** um prompt melhor não garante uma resposta correta. Mesmo o segundo resultado é apenas um **insumo exploratório** para o trabalho do gestor.
 
@@ -94,14 +126,14 @@ Esse terceiro passo introduz a ideia de **interação iterativa** e evidencia co
 4. **Há algum risco em seguir uma recomendação que parece organizada e segura, mas foi gerada sem evidências locais?**
 5. **O que mudou entre os dois prompts: a inteligência da ferramenta ou a definição do trabalho solicitado?**
 
-### Síntese
+## 3. Síntese
 
 - **Texto bem escrito ≠ diagnóstico confiável.** A forma de apresentação não comprova a qualidade das conclusões.
 - **Sugestão ≠ recomendação validada.** Antes de implantar ações, é preciso testar premissas, checar dados e avaliar consequências.
 - **Hipótese ≠ causa demonstrada.** Aumento de espera, por exemplo, pode envolver agenda, perfil de demanda, processos, capacidade, encaminhamentos ou outros fatores.
 - **IA apoia ≠ IA decide.** O gestor e as instâncias de governança permanecem responsáveis pela avaliação e pelas decisões.
 
-## 7. Fechamento: regra prática para levar adiante (2 minutos)
+## 4. Fechamento: regra prática para levar adiante (2 minutos)
 
 > **Não pergunte apenas “o que devo fazer?”. Explique o problema, o contexto, os limites e como uma boa resposta será avaliada.**
 
@@ -116,3 +148,5 @@ Exemplos:
 **Ponte para o módulo 2:**
 
 > “Agora que vimos a diferença que uma boa instrução pode fazer, vamos praticar um método para construir solicitações mais úteis, críticas e verificáveis.”
+
+Próxima aula: [Módulo 2 — Como conversar com a IA de maneira eficiente](02-prompt-engineering.md).

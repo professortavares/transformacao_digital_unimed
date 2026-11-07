@@ -1,6 +1,31 @@
-# Módulo 3 — Como conversar com a IA de maneira eficiente
+# Módulo 3 — Frameworks e melhoria de prompts
 
-### Distinção essencial
+## Objetivos de aprendizagem
+
+Ao final deste módulo, os participantes devem ser capazes de:
+
+1. Escolher um framework (RTF, TAG, RISE, CO-STAR, CARE ou BAB) conforme a situação.
+2. Usar metaprompting em três passos: diagnóstico, reescrita e comparação de versões.
+3. Reconhecer que um framework bem preenchido não substitui dados, premissas validadas nem revisão humana.
+
+## Preparação
+
+- Abra uma conversa para o metaprompt e outra para executar o prompt original e o revisado.
+- Use o cenário fictício da seção 2.5 e apenas dados fictícios.
+
+## Cronograma sugerido (~22 min)
+
+Os tempos são uma sugestão; o roteiro original não define duração por seção.
+
+| Etapa | Tempo |
+|---|---|
+| Abertura e objetivos | 2 min |
+| Frameworks (seção 1) | ~8 min |
+| Metaprompting (seção 2) | ~7 min |
+| Síntese (seção 3) | 3 min |
+| Fechamento (seção 4) | 2 min |
+
+## Distinção essencial
 
 | Conceito | Pergunta que responde | Exemplo |
 |---|---|---|
@@ -11,6 +36,8 @@
 
 
 ## 1. Os frameworks de prompts
+
+**Sugestão de condução:** não apresente os seis frameworks com o mesmo peso. Use o quadro de escolha rápida (item 1.7) para situar a turma e aprofunde dois: RTF, por ser o mais simples, e RISE, por unir dados, etapas e critérios de qualidade. Os demais servem como consulta.
 
 ### 1.1 RTF — Role, Task, Format
 
@@ -351,3 +378,16 @@ Não há autorização para alterar a equipe ou o orçamento neste momento.
 ```
 
 **Resultado pedagógico esperado:** o prompt melhor deve ajudar a priorizar **perguntas diagnósticas, dados necessários, riscos e medidas testáveis**, sem inventar as causas.
+
+## 3. Síntese
+
+- **Framework organiza, não garante.** Um acrônimo bem preenchido não substitui dados ausentes.
+- **Escolha pelo objetivo.** Se a solicitação já está clara, um prompt simples basta.
+- **Metaprompting exige teste.** Compare o original e o revisado com o mesmo material; uma versão mais longa nem sempre é melhor.
+- **A decisão continua humana.** Revise as premissas que a IA assumiu antes de usar o resultado.
+
+## 4. Fechamento (2 minutos)
+
+> Um bom prompt torna a conversa com a IA mais verificável. Ele não torna a decisão automática.
+
+**Ponte para o próximo bloco:** agora que sabemos instruir e revisar prompts, vamos ver como a IA pode atuar como agente com skills reutilizáveis. Próxima etapa: [Agentes e skills](../02_agentes/01_agentes_e_skills.md).
