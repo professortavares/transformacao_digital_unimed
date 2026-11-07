@@ -1,4 +1,4 @@
-# Módulo 4 — Copilot na prática: do Excel ao Word e ao PowerPoint
+# Módulo 3 — Copilot na prática: do Excel ao Word e ao PowerPoint
 
 ## 1. Proposta pedagógica
 
