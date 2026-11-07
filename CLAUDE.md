@@ -16,6 +16,8 @@ Course material in Brazilian Portuguese for a digital transformation course aime
   - `dados_ficticios_ambulatorio.csv` — the Jan–Apr fictitious dataset used across the lessons and the skill's activation test.
 - `03_avançado/` — hands-on Microsoft 365 Copilot labs (Excel, Word, PowerPoint) around a separate fictitious case, "Centro de Especialidades Horizonte". It has its own files: the lab script `01_copilot_avançado.md`, the workbook `indicadores_ambulatoriais_ficticios.xlsx`, and the report template `modelo_contingencia_relatorio_executivo.docx`.
 
+- `04_avaliação_llm/` — LLM-as-a-Judge oficina (Módulo 6): the roteiro `01_llm_as_a_judge_copilot.md` plus `materiais/` (the case with Respostas A, B and C, two judge prompts, a human evaluation sheet, and the professor's answer key, `gabarito_professor.md`).
+
 The Jan–Apr dataset appears in the CSV, in the lesson tables, and in the RISE example in `03-frameworks…md`. If you change figures in one place, check the others. The Horizonte case in `03_avançado/` is a different dataset; don't mix the two.
 
 ## Conventions to keep
@@ -25,6 +27,8 @@ The Jan–Apr dataset appears in the CSV, in the lesson tables, and in the RISE 
 - **No causal claims from short series.** Lesson examples such as "a espera aumentou porque faltam médicos" are adversarial tests the material is designed to refuse, not recommendations to repeat.
 - **Fictitious data only.** The skill and agent instructions forbid patient identifiers and individual clinical decisions. New examples must stay fictitious.
 - **Language:** lesson content, skill output, and sample data are in Portuguese (pt-BR, with `1.100` thousands separators and `4,0` decimals in prose). The CSV uses unaccented `Marco` and plain `4.0` decimals. Match the language of the file you are editing.
-- **Module numbering conflict, unresolved.** `01_introdução/` holds Módulos 1–3 and `02_agentes/` is labelled Módulo 4, but `03_avançado/01_copilot_avançado.md` is also labelled Módulo 4, and its own section numbering jumps from 4 to 7. Don't renumber that file on your own; confirm the intended order with the user first.
-- **Lesson structure.** The lessons in `01_introdução/` and `02_agentes/` open with objetivos, preparação and an approximate cronograma, and close with Síntese and Fechamento. `03_avançado/` follows its own layout (proposta pedagógica, then labs with timed steps). Keep the pattern of the folder you are editing.
+- **Module numbering follows the folders:** `01_introdução/` = Módulos 1–3, `02_agentes/` = Módulo 4, `03_avançado/` = Módulo 5, `04_avaliação_llm/` = Módulo 6. Keep headings in that order if a module is added or moved.
+- **Lesson structure.** The lessons in `01_introdução/`, `02_agentes/` and `04_avaliação_llm/` open with objetivos, preparação and an approximate cronograma, and close with Síntese and Fechamento. `03_avançado/` follows its own layout (proposta pedagógica, then labs with timed steps). Keep the pattern of the folder you are editing.
+- **Judge prompts are duplicated.** The inline prompts in `04_avaliação_llm/01_llm_as_a_judge_copilot.md` (Bloco 4) are shorter or differently ordered versions of `materiais/prompt_juiz_absoluto.md` and `materiais/prompt_juiz_comparativo.md`. When you change one, update the other so the class gets the same rubric everywhere.
+- **Answer key in the repo.** `materiais/gabarito_professor.md` is marked "NÃO DISTRIBUIR ANTES DA OFICINA" and is committed alongside the student materials. Don't copy its verdicts into student-facing files.
 - **Copy-paste blocks.** The ```text blocks are prompts and agent instructions that participants copy. Don't change them as a side effect of formatting work. Where a lesson gives an expected result, such as the classification reference table in `02-prompt-engineering.md`, keep it consistent with the definitions in the prompt above it.

@@ -174,11 +174,11 @@ Não altere os dados nem acrescente conclusões sem evidências.
 
 **Pergunta à turma:** um texto bem redigido pode esconder um cálculo errado que veio do Excel? Como evitar que o erro seja propagado para o Word?
 
-**Ponto importante:** o arquivo Word é o **produto revisado** desta etapa. Salve-o para fazer a transição ao PowerPoint. Se a edição no Word não estiver disponível, utilize o documento de contingência do kit.
+**Ponto importante:** o arquivo Word é o **produto revisado** desta etapa. Salve-o para fazer a transição ao PowerPoint. Se a edição no Word não estiver disponível, utilize o modelo `modelo_contingencia_relatorio_executivo.docx`, desta pasta.
 
 ---
 
-## 7. Laboratório C — Copilot + PowerPoint (15 min)
+## 5. Laboratório C — Copilot + PowerPoint (15 min)
 
 ### Aprendizado-chave
 

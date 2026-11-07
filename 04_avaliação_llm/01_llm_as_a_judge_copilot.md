@@ -195,7 +195,7 @@ E. Veredito: 'apto para revisão humana' ou 'reprovar e corrigir'.
 F. Até 3 recomendações específicas de melhoria.
 
 [DADOS DE REFERÊNCIA]
-COLE AQUI O CONTEXTO FACTUAL DO CASO.
+COLE AQUI OS DADOS DE REFERÊNCIA DO CASO.
 [/DADOS DE REFERÊNCIA]
 
 [PEDIDO ORIGINAL]
