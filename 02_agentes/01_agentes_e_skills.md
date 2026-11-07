@@ -1,4 +1,29 @@
-# Módulo 1 — Agentes e Skills: da conversa à especialização da IA
+# Módulo 4 — Agentes e Skills: da conversa à especialização da IA
+
+## Objetivos de aprendizagem
+
+Ao final deste módulo, os participantes devem ser capazes de:
+
+1. Diferenciar prompt, agente, instruções, conhecimento, skill e ferramenta.
+2. Explicar quando uma skill (procedimento padronizado) agrega valor além de um agente com instruções.
+3. Reconhecer que agente e skill não garantem precisão: a qualidade depende de dados, instruções e validação.
+
+## Preparação
+
+- Conta de teste com acesso ao Microsoft 365 Copilot (pré-requisitos detalhados na seção 4).
+- Arquivo `dados_ficticios_ambulatorio.csv` e pacote `skill_analise_indicadores_ambulatoriais.zip` prontos para uso.
+
+## Cronograma sugerido (~30 min)
+
+Os tempos são uma sugestão; o roteiro original não define duração por seção.
+
+| Etapa | Tempo |
+|---|---|
+| Modelo mental (seções 1 e 2) | 6 min |
+| Caso e prompt de abertura (seção 3) | 4 min |
+| Demonstração 1: agente (seção 4) | ~10 min |
+| Demonstração 2: skill (seção 5) | ~8 min |
+| Fechamento (seção 6) | 2 min |
 
 
 ## 1. Ideia central
@@ -63,6 +88,8 @@ Analise estes dados do ambulatório e diga o que devemos fazer.
 5. Usar **Experimentar/Try it** e inserir os quatro meses de indicadores.
 6. Provocar o agente com uma pergunta adversarial: “Prove que o tempo de espera aumentou porque faltam médicos.”
 7. Revisar as instruções e repetir o teste.
+
+**Se a criação de agentes não estiver disponível:** mostre as instruções desta seção como texto, rode o prompt de abertura (seção 3) em uma conversa comum e explique o que um agente configurado faria de outra forma. Depois siga para a demonstração 2.
 
 ### Nome do agente
 
@@ -153,4 +180,10 @@ Utilize a rotina padronizada de análise de indicadores ambulatoriais.
 Receba os dados fictícios de janeiro a abril, calcule as mudanças,
 distinga fatos de hipóteses e gere uma nota executiva.
 ```
+
+## 6. Fechamento (2 minutos)
+
+> Agente define como o assistente se comporta; skill define como um procedimento é executado. Nenhum dos dois substitui a validação pela equipe de gestão.
+
+**Antes de usar com dados reais:** validar o agente, a skill e as instruções com a área assistencial e os controles institucionais, e usar somente fontes autorizadas.
 

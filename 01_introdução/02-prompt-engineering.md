@@ -1,5 +1,30 @@
 # Módulo 2 — Como conversar com a IA de maneira eficiente
 
+## Objetivos de aprendizagem
+
+Ao final deste módulo, os participantes devem ser capazes de:
+
+1. Escolher entre zero-shot, few-shot e análise estruturada conforme a tarefa.
+2. Pedir resultados auditáveis (critérios, premissas, cálculos) em vez de "raciocínio completo".
+3. Reconhecer que toda técnica pode falhar e exige validação.
+
+## Preparação
+
+- Abra uma conversa nova para cada comparação (A1 e A2; B1 e B2).
+- Use apenas dados fictícios.
+
+## Cronograma sugerido (~20 min)
+
+Os tempos abaixo são uma sugestão; no roteiro original, só a Demonstração B tem duração definida.
+
+| Etapa | Tempo |
+|---|---|
+| Abertura e objetivos | 3 min |
+| Demonstração A (seção 2) | ~8 min |
+| Demonstração B (seção 2) | ~3 min |
+| Síntese (seção 3) | 3 min |
+| Fechamento (seção 4) | 3 min |
+
 ## 1. Técnicas de prompting: o que são e quando usar
 
 ### 1.1. Visão comparativa
@@ -31,6 +56,13 @@
 ## 2. Demonstração — prompts prontos para copiar
 
 ### Demonstração A — Zero-shot x few-shot
+
+#### Passo a passo de condução
+
+1. Rode A1 em uma conversa nova e projete a tabela resultante.
+2. Faça a pergunta ao grupo (logo abaixo do A1).
+3. Abra outra conversa, rode A2 e compare as categorias atribuídas.
+4. Confira as respostas com o quadro de referência, sem projetá-lo antes da discussão.
 
 **Cenário:** a coordenação de um ambulatório fictício recebeu comentários curtos e deseja classificá-los em categorias operacionais para posterior análise. São exemplos criados para ensino, não dados de pacientes.
 
@@ -97,11 +129,27 @@ ambíguos, acrescente a coluna "revisão humana necessária" = SIM.
 
 **Debate rápido:** os exemplos podem melhorar a consistência, mas também podem **induzir erros** caso as definições e exemplos não estejam alinhados. Observe se a IA marcou ambiguidades e lembre que a comparação tem apenas cinco registros.
 
+**Nota metodológica:** A1 pede tabela com justificativa e A2 pede apenas a tabela de categorias. Como os formatos diferem, compare a **categoria atribuída**, não a estrutura da resposta.
+
 **Ponto pedagógico:** com o few-shot, o usuário não só descreve a tarefa: ele **mostra como quer que a tarefa seja realizada**.
+
+**Quadro de referência para o instrutor** (não projetar antes da discussão):
+
+| # | Comentário | Categoria esperada (A2) |
+|---|---|---|
+| 1 | Não consegui remarcar minha consulta pelo telefone. | AGENDAMENTO |
+| 2 | Fui atendido quarenta minutos depois do horário. | TEMPO_DE_ESPERA |
+| 3 | Ninguém avisou que o horário tinha sido alterado. | COMUNICACAO |
+| 4 | A sala de espera estava muito fria. | OUTROS |
+| 5 | Esperei na linha, mas não consegui confirmar a consulta. | AGENDAMENTO ou TEMPO_DE_ESPERA (ambíguo; "revisão humana necessária" = SIM) |
+
+O comentário 5 é propositalmente ambíguo: "confirmar" aponta para AGENDAMENTO e "esperei" para TEMPO_DE_ESPERA. Ele serve para discutir o que fazer quando as definições não decidem o caso.
 
 ### Demonstração B — CoT aplicado como justificativa auditável (aprox. 3 minutos)
 
 **Cenário fictício:** o ambulatório precisa selecionar uma iniciativa para um projeto-piloto. Não há dados suficientes para estimar retorno financeiro com segurança.
+
+**Correspondência entre as alternativas:** em B1, as opções são "ampliar horários" (A), "automatizar lembretes" (B) e "reorganizar a agenda" (C). Em B2, o texto é mais detalhado, mas as letras correspondem às mesmas alternativas.
 
 #### B1. Pedido direto
 
@@ -142,5 +190,27 @@ Formato: tabela comparativa + até 120 palavras de conclusão.
 **Pergunte:** o segundo prompt tornou a resposta mais útil para **discussão e auditoria**, mesmo sem garantir que a recomendação seja correta?
 
 **Explique:** *CoT* não deve ser vendido como “pedir para pensar passo a passo resolve tudo”. Para decisões relevantes, o ganho desejado é a **transparência dos critérios e a verificabilidade do resultado** — nunca a transferência da responsabilidade decisória à IA.
+
+**O que comparar entre B1 e B2:**
+
+| Aspecto | B1 (pedido direto) | B2 (análise estruturada) |
+|---|---|---|
+| Tipo de resposta | Pede uma única escolha | Compara as três opções |
+| Fatos e hipóteses | Não solicitados | Separados para cada opção |
+| Dados faltantes | Não solicitados | Listados explicitamente |
+| Conclusão | "Escolha uma" | Recomenda o que medir antes de decidir |
+
+## 3. Síntese
+
+- **Nenhuma técnica é universal.** Zero-shot, few-shot e análise estruturada servem a tarefas diferentes.
+- **Exemplos moldam a resposta.** Um exemplo ruim induz um formato ruim.
+- **Justificativa bem escrita não comprova nada.** Verifique critérios, cálculos e evidências.
+- **IA apoia, não decide.** A responsabilidade pela conclusão continua sendo humana.
+
+## 4. Fechamento (3 minutos)
+
+> Uma boa técnica organiza a instrução; a verificação dos resultados continua sendo responsabilidade de quem usa a IA.
+
+**Ponte para o módulo 3:** agora que vimos as técnicas, vamos organizar instruções com frameworks e aprender a melhorar um prompt com a própria IA. Próxima aula: [Módulo 3 — Frameworks e melhoria de prompts](03-frameworks-e-melhoria-de-prompts.md).
 
 
