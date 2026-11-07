@@ -1,4 +1,4 @@
-# Módulo 4 — LLM-as-a-Judge: como avaliar respostas de IA usando o Microsoft Copilot
+# Módulo 6 — LLM-as-a-Judge: como avaliar respostas de IA usando o Microsoft Copilot
 
 
 ## 1. Ideia central

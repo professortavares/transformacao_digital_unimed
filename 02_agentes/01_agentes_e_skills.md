@@ -1,4 +1,4 @@
-# Módulo 2 — Agentes e Skills: da conversa à especialização da IA
+# Módulo 4 — Agentes e Skills: da conversa à especialização da IA
 
 ## Objetivos de aprendizagem
 
